@@ -1,0 +1,414 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1440px;
+    align-items: center;
+}
+
+header nav {
+    padding-left: 10px;
+    align-items: center;
+}
+
+.wrapper {
+    margin: 32px 100px;
+    display: flex;
+    align-items: center;
+}
+
+header nav .container img {
+    width: 25px;
+    height: 25px;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+span {
+    color: #2D76F9;
+    font-family: Nunito;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+header nav ul li a {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+header nav ul button {
+    width: 175px;
+    height: 50px;
+    flex-shrink: 0;
+    border-radius: 50px;
+    border: 1.5px solid #2D76F9;
+    color: #2D76F9;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 532px;
+}
+
+
+
+.hero-box {
+    display: flex;
+    gap: 40px;
+    margin-left: 100px;
+}
+
+.hero-title {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 85px;
+    margin-bottom: 27px;
+}
+
+.hero-article {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 28px;
+}
+
+.hero img {
+    width: 700px;
+    height: 850px;
+}
+
+.hero-box button {
+    width: 220px;
+    height: 65px;
+    flex-shrink: 0;
+    border-radius: 1500px;
+    border: 1px solid #2D76F9;
+    background: #2D76F9;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+/* About section start */
+#about {
+    margin: 0px 100px;
+}
+
+#about .features {
+    padding-top: 172px;
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-bottom: 150px;
+}
+
+
+.features h3 {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 30px;
+    padding-top: 50px;
+}
+
+.features p {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 200% */
+}
+
+.better-deadline img {
+    width: 56px;
+    height: 56px;
+}
+
+.manage-task img {
+    width: 56px;
+    height: 56px;
+}
+
+.notification img {
+    width: 48px;
+    height: 48px;
+}
+
+/* About section end */
+
+/* Advantage section start */
+.page-1-of-why {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 147px;
+    margin-right: 100px;
+}
+
+#advantage .container img {
+    border-radius: 0px 100px 100px 0px;
+    background: #EEF4FF;
+}
+
+.page-2-of-why {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 143px;
+    margin-left: 104px;
+}
+
+.page-2-title h1 {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 50px;
+    /* 180.556% */
+}
+
+.page-2-title p {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    /* 200% */
+}
+
+/* Advantage section end */
+
+
+/* User paging section start */
+
+#user-page .container {
+    border-radius: 50px;
+    background: #2D76F9;
+    margin: 150px 100px;
+}
+
+.user-page-title h2 {
+    color: #FFF;
+    text-align: center;
+    font-family: Poppins;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    padding: 100px 310px;
+}
+
+.user-page-button {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    padding: 0px 345px 100px 345px;
+}
+
+.button-download {
+    border-radius: 1500px;
+    background: #FFF;
+    color: #2D76F9;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 58px;
+    border: 1.5px solid #FFF;
+}
+
+.button-about {
+    border-radius: 1500px;
+    border: 1.5px solid #FFF;
+    background: #2D76F9;
+    color: #FFF;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    padding: 20px 70px;
+}
+
+/* User paging section end */
+
+
+/* Testimonial section start */
+#testimonial .container {
+    margin-bottom: 150px;
+}
+
+.testimonial-page {
+    margin-bottom: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 147px;
+    margin-right: 130px;
+}
+
+.testimonial-title h1 {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 65px;
+    margin-bottom: 50px;
+}
+
+.woman-image {
+    display: flex;
+    align-items: center;
+    margin-bottom: 50px;
+    gap: 32px;
+}
+
+.testimonial-title h4 {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+
+.testimonial-title .women-image-title {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.testimonial-title .about-women-title {
+    color: #212121;
+    font-family: Poppins;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    margin-bottom: 50px;
+}
+
+
+/* Testimonial section end */
+
+/* Footer section start */
+
+footer {
+    padding-top: 75px;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.footer-col {
+    margin-left: 100px;
+    margin-bottom: 137px;
+}
+
+.footer-col-image {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.footer-col-image h1 {
+    color: #212121;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-col-image h1 span {
+    color: #2D76F9;
+    font-family: Nunito;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.footer-col p {
+    color: #747474;
+    font-family: Poppins;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 36px;
+    width: 387px;
+    height: 108px;
+}
+
+.footer-col h2 {
+    color: #000;
+    font-family: Poppins;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 36px;
+    margin-bottom: 58px;
+    align-items: center;
+}
+
+.footer-col ul li a{
+    color: #747474;
+        font-family: Poppins;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 36px;
+}
+.footer-col-icons{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+
+/* Footer section end */

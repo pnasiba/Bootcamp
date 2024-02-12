@@ -1,0 +1,39 @@
+#colorful {
+    text-align: center;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 150px;
+    font-weight: 900;
+    letter-spacing: -38px;
+}
+
+#colorful span:nth-child(1){
+    color: blue;
+}
+
+#colorful span:nth-child(2) {
+    color: rgb(19, 187, 19);
+}
+
+#colorful span:nth-child(3) {
+    color: rgb(255, 191, 0);
+}
+
+#colorful span:nth-child(4) {
+    color: rgb(225, 44, 180);
+}
+
+#colorful span:nth-child(5) {
+    color: rgb(255, 51, 0);
+}
+
+#colorful span:nth-child(6) {
+    color: rgb(232, 46, 111);
+}
+
+#colorful span:nth-child(7) {
+    color: blue;
+}
+
+#colorful span:nth-child(8) {
+    color: rgb(255, 191, 0);
+}

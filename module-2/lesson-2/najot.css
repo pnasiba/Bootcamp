@@ -1,0 +1,45 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(2, 24, 34);
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: Logo;
+    animation-duration: 3s;
+    position: relative;
+    gap: 20px;
+}
+
+.wrapper h1 {
+    color: #fff;
+    font-family: sans-serif;
+    opacity: 0;
+    font-size: 64px;
+    animation-name: Logo;
+    animation-duration: 3.1s;
+}
+
+.wrapper-img img {
+    width: 400px;
+}
+
+@keyframes Logo {
+    0% {
+        position: relative;
+        top: 300px;
+    }
+
+    100% {
+        position: relative;
+        opacity: 1;
+        top: 50px;
+    }
+}

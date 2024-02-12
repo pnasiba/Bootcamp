@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 1250px;
+    padding: 0 20px;
+    /* background-color: #fff; */
+}
+
+/* ----- header section start ------ */
+header {
+    background-color: crimson;
+}
+
+header nav {
+    height: 60px;
+    padding-top: 17px;
+}
+
+.logo {
+    font-size: 26px;
+    font-weight: 900;
+    color: #fff;
+    text-decoration: none;
+}
+
+header nav ul {
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 620px;
+}
+
+header nav ul li {
+    display: inline;
+    font-size: 20px;
+    margin: 0 16px;
+}
+
+header nav ul li a {
+    color: #d0d0d0;
+    text-decoration: none;
+}
+
+/* ----- header section end ------ */
+
+/* ------ main section start ----- */
+
+main {
+    min-height: 100vh;
+    background: azure;
+}
+
+
+
+/* intro section start */
+
+#intro {
+    background-image: url(https://picsum.photos/id/547/1600/900);
+    background-color: lime;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+
+#intro .gallery {
+    background: #fff;
+    height: 400px;
+    border-radius: 20px;
+    padding-left: 50px;
+}
+
+#intro .gallery li {
+    float: left;
+    margin: 65px;
+    list-style-type: none;
+}
+
+
+/* intro section end */
+
+
+
+/* about section start */
+
+
+#about {
+    background-image: url(https://picsum.photos/id/457/1600/900);
+    background-color: lime;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 60px);
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+.title-about {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#about p {
+    font-size: 24px;
+    text-align: justify;
+}
+
+
+/* about section end */
+
+
+/* contact section start */
+
+#contact {
+    background-image: url(https://picsum.photos/id/227/1600/900);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: calc(50vh);
+    padding-top: 100px;
+    background-attachment: fixed;
+}
+
+.title-contact {
+    font-size: 36px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#contact .list-contact {
+    font-size: 29px;
+    text-align: justify;
+    background-color: #fff;
+
+}
+
+#contact .list-contact .list-contact-item {
+    float: left;
+    margin-left: 200px;
+    line-height: 30px;
+}
+
+#contact .list-contact .list-contact-item a {
+    color: #000000;
+}
+
+/* contact section end */
+
+
+
+/* ----- footer ------ */
+
+
+footer {
+    background-color: rgb(134, 20, 43);
+    padding: 30px;
+    text-align: center;
+    font-size: 23px;
+    color: #fff;
+}

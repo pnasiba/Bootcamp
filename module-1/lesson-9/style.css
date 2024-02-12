@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn {
+    padding: 10px 30px;
+    margin: 30px;
+    border-radius: 6px;
+    border: none;
+    background: rgba(74, 74, 255, 0.9);
+    color: #fff;
+    cursor: pointer;
+    /* transition-duration: 1s;
+  transform-origin: right;
+  transition-timing-function: cubic-bezier(0, 0.88, 1,-1.05);
+  transition-delay: 2s;
+  transition-property: all; */
+    transition: all 2s ease;
+}
+
+/* mouse over */
+
+.btn:hover {
+    background-color: rgb(255, 0, 0);
+    text-transform: uppercase;
+    padding: 30px;
+}
+
+/* mouse click */
+
+.btn:active {
+    background-color: rgb(74, 74, 255);
+}
+
+img {
+    display: block;
+    margin: 30px;
+    transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+    opacity: 0.8;
+    box-shadow: 10px 10px 0px 0px lime, 20px 20px 0px 0px crimson,
+        30px 30px 0px 0px indigo;
+}
+
+h1 {
+    text-shadow: 3px 0px rgba(220, 9, 202, 0.911);
+    margin: 30px;
+}
+
+a:visited {
+    color: deeppink;
+}
+
+input {
+    padding: 8px;
+    width: 300px;
+    border-radius: 10px;
+}
+
+input:focus {
+    border: 2px solid chocolate;
+    outline: none;
+    border-radius: 25px;
+}
+
+
+.cover {
+    width: 400px;
+    height: 400px;
+    background-image: url(https://picsum.photos/id/432/700/500);
+    background-size: cover;
+    transition: all 0.5s ease-out;
+    margin: 40px;
+}
+
+.cover:hover {
+    background-image: url(https://picsum.photos/id/432/700/500);
+    background-size: cover;
+    background-position: top right;
+}

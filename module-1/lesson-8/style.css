@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+@font-face {
+    font-family: "Eater";
+    src: url("./assets/fonts/Eater/Eater-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    max-width: 1250px;
+}
+
+/* ----------- headers style ---------- */
+
+header {
+    background-color: crimson;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    font-size: 32px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.list {
+    display: flex;
+    font-size: 22px;
+    gap: 50px;
+}
+
+.list a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+
+.item:nth-child(3) {
+    order: 2;
+}
+
+.item:nth-child(4) {
+    order: 1;
+}
+
+
+/* ----------- headers style end ---------- */
+
+/* display: block , inline , inline-block , none , flex */
+/* row -> qator , column: ustun */
+
+.flex-container {
+    background: teal;
+    /* padding: 150px 0; */
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* column-gap: 40px;
+  row-gap:100px; */
+    /* gap: 40px; */
+    align-items: center;
+}
+
+.flex-item {
+    background-color: wheat;
+    margin: 4px;
+    padding: 40px;
+}
+
+.flex-item:nth-child(2) {
+    background-color: lightseagreen;
+    order: 2;
+}
+
+.flex-item:nth-child(3) {
+    background-color: rgb(134, 32, 178);
+    order: 1;
+}

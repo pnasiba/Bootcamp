@@ -1,0 +1,225 @@
+@import url("https://fonts.googleapis.com/css2?family=Itim&family=Lato:wght@400;700&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+body {
+    background-image: url(./assets/bg.png);
+    overflow: hidden;
+}
+
+/* Header start */
+.wrapper {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    margin: 0 145px 0 145px;
+    align-items: center;
+}
+
+.wrapper--icon {
+    display: none;
+}
+
+.wrapper-list {
+    display: flex;
+    gap: 55px;
+}
+
+span {
+    color: #B37C43;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+.wrapper-list li a {
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    letter-spacing: 0.4px;
+}
+
+/* Header end */
+
+.wrapper-about-coffee {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.text-title {
+    margin: 119px 440px 0 0;
+}
+
+.text-title h1 {
+    color: #000;
+    font-family: Itim;
+    font-size: 50px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 1px;
+    width: 349px;
+    height: 70px;
+}
+
+.text-title p {
+    color: #000;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 60px;
+    letter-spacing: 1.5px;
+
+    width: 641px;
+    height: 367px;
+    margin-bottom: 35px;
+}
+
+.text-title button {
+    border-radius: 5px;
+    background: #00704A;
+    box-shadow: 20px 20px 40px 0px #E5E5E5;
+    color: #FFF;
+    text-align: center;
+    font-family: Lato;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 0.6px;
+    padding: 26px 33px 27px 33px;
+    border: none;
+}
+
+#about-coffee .container img {
+    position: relative;
+    bottom: 580px;
+    left: 600px;
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    position: absolute;
+    top: 330px;
+    right: 40px;
+}
+
+.bg-img img {
+    display: none;
+}
+
+@media screen and (max-width: 412px) {
+    .wrapper-about-coffee {
+        width: 450px;
+    }
+
+    .container {
+        position: relative;
+    }
+
+    body {
+        background-image: none;
+    }
+
+    .wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 30px;
+        margin: 0 19px 0 0;
+        align-items: center;
+    }
+
+    .wrapper-list li {
+        display: none;
+    }
+
+    .wrapper--icon {
+        display: block;
+    }
+
+    .text-title {
+        margin-top: 76px;
+    }
+
+    .text-title h1 {
+        text-align: center;
+        font-family: Itim;
+        font-size: 35px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.7px;
+        padding-left: 35px;
+    }
+
+    .text-title p {
+        width: 407px;
+        height: 241px;
+        padding: 0 19px 0 20px;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1px;
+    }
+
+    .text-title button {
+        padding: 20px 30px;
+        color: #FFF;
+        text-align: center;
+        font-family: Lato;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 30px;
+        letter-spacing: 1px;
+        margin: -20px 115px;
+    }
+
+    .icons {
+        display: none;
+    }
+
+    .container .coffee {
+        position: absolute;
+        left: -100px;
+    }
+
+    .bg-img {
+        position: relative;
+        top: -470px;
+        left: -50px;
+        display: block;
+        width: 509px;
+        height: 470px;
+        border-radius: 400px;
+        background: #00704A;
+        align-items: center;
+    }
+}

@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card {
+    max-width: 320px;
+    height: 500px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0px 4px 6px -1px, rgba(0, 0, 0, 0.6) 0px 2px 4px -1px;
+    background-color: #d6e2f3;
+}
+
+.card img{
+    width: 100%;
+}
+.card-title{
+    padding: 15px;
+}
+
+.card:first-child{
+    position: relative;
+    left: 600px;
+    top: 30px;
+}
+
+.card:nth-child(2){
+    position: relative;
+    left: 600px;
+    top: 70px;
+}
+
+.card:nth-child(3){
+    position: relative;
+    left: 600px;
+    top: 110px;
+}

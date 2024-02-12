@@ -1,0 +1,15 @@
+.title{
+    text-decoration: solid rgb(30, 75, 153) underline overline;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight:600;
+    font-style: bold;
+    text-align: center;
+    }
+    
+p{
+    color:rgb(105, 100, 100);
+    font-family: sans-serif;
+    font-style: bold;
+    font-size: 18px;
+}

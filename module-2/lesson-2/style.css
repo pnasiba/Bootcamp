@@ -1,0 +1,70 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    background-color: #264b59;
+    position: relative;
+    top: 0px;
+    margin: 5px;
+    animation-name: SquareToCircle;
+    animation-duration: 4s;
+}
+
+/* .box:hover {
+    animation-play-state: running;
+} */
+
+@keyframes SquareToCircle {
+    0% {
+        position: relative;
+        top: 0;
+        left: 5px;
+    }
+
+    12.5% {
+        position: relative;
+        top: 0;
+        left: 500px;
+    }
+
+    25% {
+        position: relative;
+        top: 200px;
+        right: 0;
+    }
+
+    /* 37.5% {
+        position: relative;
+        left: 600px;
+    }
+
+    50% {
+        position: relative;
+        bottom: 200px;
+    }
+
+    62.5% {
+        position: relative;
+        right: 400px;
+    }
+
+    75% {
+        position: relative;
+        right: 400px;
+    }
+
+    87.5% {
+        position: relative;
+        top: 200px;
+    }
+
+    100% {
+        position: relative;
+        top: 200px;
+    } */
+}

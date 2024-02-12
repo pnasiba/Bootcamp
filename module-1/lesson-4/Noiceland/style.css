@@ -1,0 +1,133 @@
+@import url("https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Tenor Sans;
+}
+
+ul,
+li,
+ol {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.navbar-box {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 35px;
+  padding-bottom: 35px;
+}
+
+header {
+  border-bottom: 2px solid rgb(198, 198, 198);
+}
+
+.navbar-items {
+  display: flex;
+  gap: 20px;
+}
+
+.nav-item {
+  font-size: 20px;
+}
+
+.hero {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.hero-box {
+  display: flex;
+  gap: 40px;
+}
+
+.hero-p1 {
+  color: #999;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin-bottom: 18px;
+}
+
+.hero-title {
+  color: #000;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 42px; /* 116.667% */
+  text-transform: uppercase;
+  margin-bottom: 27px;
+}
+
+.hero-article {
+  color: #666;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 150% */
+  margin-bottom: 28px;
+}
+
+.card1 {
+  width: 387px;
+  margin-bottom: 60px;
+}
+
+.card1-subtitle {
+  color: #999;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 12px; /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  margin: 24px 0px 18px 0px;
+}
+
+.card1-title {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px; /* 120% */
+  text-transform: uppercase;
+  margin-bottom: 15px;
+}
+
+.card1-pretitle {
+  color: #000;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 12px; /* 120% */
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.card-wrapper {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.card-section {
+  border-bottom: 2px solid #e6e6e6;
+  margin-bottom: 90px;
+}

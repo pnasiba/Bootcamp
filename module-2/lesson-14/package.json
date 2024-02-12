@@ -1,0 +1,11 @@
+{
+  "name": "lesson-14",
+  "version": "1.0.0",
+  "description": "Tailwindcss css",
+  "main": "./index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Nasiba",
+  "license": "ISC"
+}
